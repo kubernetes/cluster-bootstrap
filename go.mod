@@ -7,6 +7,7 @@ go 1.12
 require (
 	k8s.io/api v0.0.0-20190624085159-95846d7ef82a
 	k8s.io/apimachinery v0.0.0-20190624085041-961b39a1baa0
+	k8s.io/klog v0.3.1
 )
 
 replace (
