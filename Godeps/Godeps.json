@@ -76,7 +76,7 @@
 		},
 		{
 			"ImportPath": "github.com/golang/protobuf",
-			"Rev": "v1.2.0"
+			"Rev": "v1.3.1"
 		},
 		{
 			"ImportPath": "github.com/google/go-cmp",
@@ -96,7 +96,7 @@
 		},
 		{
 			"ImportPath": "github.com/hashicorp/golang-lru",
-			"Rev": "v0.5.0"
+			"Rev": "v0.5.1"
 		},
 		{
 			"ImportPath": "github.com/hpcloud/tail",
@@ -220,11 +220,11 @@
 		},
 		{
 			"ImportPath": "k8s.io/api",
-			"Rev": "d651a1528133"
+			"Rev": "198695d0603e"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery",
-			"Rev": "21ddcbbef9e1"
+			"Rev": "4147c925140e"
 		},
 		{
 			"ImportPath": "k8s.io/gengo",
