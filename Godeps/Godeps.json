@@ -76,7 +76,7 @@
 		},
 		{
 			"ImportPath": "github.com/golang/protobuf",
-			"Rev": "v1.3.1"
+			"Rev": "v1.3.2"
 		},
 		{
 			"ImportPath": "github.com/google/go-cmp",
@@ -220,11 +220,11 @@
 		},
 		{
 			"ImportPath": "k8s.io/api",
-			"Rev": "fbf594f18f80"
+			"Rev": "5524a3672fbb"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery",
-			"Rev": "86f2f1b9c076"
+			"Rev": "af6325b3a843"
 		},
 		{
 			"ImportPath": "k8s.io/gengo",
