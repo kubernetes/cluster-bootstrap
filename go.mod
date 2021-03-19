@@ -8,12 +8,12 @@ require (
 	github.com/stretchr/testify v1.6.1
 	golang.org/x/crypto v0.0.0-20201002170205-7f63de1d35b0 // indirect
 	gopkg.in/square/go-jose.v2 v2.2.2
-	k8s.io/api v0.0.0-20210303092452-3e193e6ee6c8
-	k8s.io/apimachinery v0.0.0-20210303092143-dd12c7a65e7f
+	k8s.io/api v0.20.5
+	k8s.io/apimachinery v0.20.5
 	k8s.io/klog/v2 v2.4.0
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20210303092452-3e193e6ee6c8
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20210303092143-dd12c7a65e7f
+	k8s.io/api => k8s.io/api v0.20.5
+	k8s.io/apimachinery => k8s.io/apimachinery v0.20.5
 )
