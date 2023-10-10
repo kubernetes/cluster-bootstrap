@@ -7,8 +7,8 @@ go 1.20
 require (
 	github.com/stretchr/testify v1.8.2
 	gopkg.in/square/go-jose.v2 v2.6.0
-	k8s.io/api v0.0.0-20230930101810-9a776fe3a720
-	k8s.io/apimachinery v0.0.0-20231003221610-839ad9438684
+	k8s.io/api v0.0.0-20231010150909-f17c8484434a
+	k8s.io/apimachinery v0.0.0-20231010150639-67d44f9b1fe3
 	k8s.io/klog/v2 v2.100.1
 )
 
@@ -21,9 +21,9 @@ require (
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.2 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
-	golang.org/x/crypto v0.11.0 // indirect
-	golang.org/x/net v0.13.0 // indirect
-	golang.org/x/text v0.11.0 // indirect
+	golang.org/x/crypto v0.12.0 // indirect
+	golang.org/x/net v0.14.0 // indirect
+	golang.org/x/text v0.12.0 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
@@ -33,6 +33,6 @@ require (
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20230930101810-9a776fe3a720
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20231003221610-839ad9438684
+	k8s.io/api => k8s.io/api v0.0.0-20231010150909-f17c8484434a
+	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20231010150639-67d44f9b1fe3
 )
