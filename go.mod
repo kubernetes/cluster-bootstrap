@@ -2,13 +2,13 @@
 
 module k8s.io/cluster-bootstrap
 
-go 1.20
+go 1.21.3
 
 require (
-	github.com/stretchr/testify v1.8.3
+	github.com/stretchr/testify v1.8.4
 	gopkg.in/square/go-jose.v2 v2.6.0
-	k8s.io/api v0.0.0-20231020231154-1535dfa58aa1
-	k8s.io/apimachinery v0.0.0-20231020230052-c047e325a432
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
 	k8s.io/klog/v2 v2.100.1
 )
 
@@ -33,6 +33,7 @@ require (
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20231020231154-1535dfa58aa1
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20231020230052-c047e325a432
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/cluster-bootstrap => ../cluster-bootstrap
 )
