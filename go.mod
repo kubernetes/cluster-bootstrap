@@ -7,8 +7,8 @@ go 1.20
 require (
 	github.com/stretchr/testify v1.8.1
 	gopkg.in/square/go-jose.v2 v2.6.0
-	k8s.io/api v0.0.0-20231101131934-03c3aa1e3102
-	k8s.io/apimachinery v0.0.0-20231101131425-467db0e39959
+	k8s.io/api v0.27.8
+	k8s.io/apimachinery v0.27.8
 	k8s.io/klog/v2 v2.90.1
 )
 
@@ -33,6 +33,6 @@ require (
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20231101131934-03c3aa1e3102
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20231101131425-467db0e39959
+	k8s.io/api => k8s.io/api v0.27.8
+	k8s.io/apimachinery => k8s.io/apimachinery v0.27.8
 )
