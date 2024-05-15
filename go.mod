@@ -7,8 +7,8 @@ go 1.21
 require (
 	github.com/stretchr/testify v1.8.4
 	gopkg.in/square/go-jose.v2 v2.6.0
-	k8s.io/api v0.0.0-20240404161350-448db12cecfb
-	k8s.io/apimachinery v0.0.0-20240404161013-3e7c65a7bc4d
+	k8s.io/api v0.29.5
+	k8s.io/apimachinery v0.29.5
 	k8s.io/klog/v2 v2.110.1
 )
 
