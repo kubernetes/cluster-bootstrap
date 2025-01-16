@@ -7,8 +7,8 @@ go 1.22.0
 require (
 	github.com/stretchr/testify v1.8.4
 	gopkg.in/square/go-jose.v2 v2.6.0
-	k8s.io/api v0.0.0-20240405200954-d014286182f6
-	k8s.io/apimachinery v0.0.0-20240405200823-37988e577e16
+	k8s.io/api v0.30.9
+	k8s.io/apimachinery v0.30.9
 	k8s.io/klog/v2 v2.120.1
 )
 
