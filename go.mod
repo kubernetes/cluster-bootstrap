@@ -11,8 +11,8 @@ godebug winsymlink=0
 require (
 	github.com/stretchr/testify v1.9.0
 	gopkg.in/go-jose/go-jose.v2 v2.6.3
-	k8s.io/api v0.0.0-20250211114750-4629116ef3ab
-	k8s.io/apimachinery v0.0.0-20250211114440-46c230ea8d65
+	k8s.io/api v0.33.0-alpha.2
+	k8s.io/apimachinery v0.33.0-alpha.2
 	k8s.io/klog/v2 v2.130.1
 )
 
