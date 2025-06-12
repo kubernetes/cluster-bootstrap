@@ -9,8 +9,8 @@ godebug default=go1.24
 require (
 	github.com/stretchr/testify v1.10.0
 	gopkg.in/go-jose/go-jose.v2 v2.6.3
-	k8s.io/api v0.0.0-20250606195803-f3c48f85ffba
-	k8s.io/apimachinery v0.0.0-20250606195423-d5745c2f38f8
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
 	k8s.io/klog/v2 v2.130.1
 )
 
@@ -22,7 +22,7 @@ require (
 	github.com/json-iterator/go v1.1.12 // indirect
 	github.com/kr/text v0.2.0 // indirect
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
-	github.com/modern-go/reflect2 v1.0.2 // indirect
+	github.com/modern-go/reflect2 v1.0.3-0.20250322232337-35a7c28c31ee // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/x448/float16 v0.8.4 // indirect
 	golang.org/x/crypto v0.36.0 // indirect
@@ -35,4 +35,9 @@ require (
 	sigs.k8s.io/randfill v1.0.0 // indirect
 	sigs.k8s.io/structured-merge-diff/v4 v4.7.0 // indirect
 	sigs.k8s.io/yaml v1.4.0 // indirect
+)
+
+replace (
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
 )
