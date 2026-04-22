@@ -9,8 +9,8 @@ godebug default=go1.26
 require (
 	github.com/stretchr/testify v1.11.1
 	gopkg.in/go-jose/go-jose.v2 v2.6.3
-	k8s.io/api v0.0.0-20260414143013-879d3962091a
-	k8s.io/apimachinery v0.0.0-20260414140933-efb7f2628b26
+	k8s.io/api v0.36.0
+	k8s.io/apimachinery v0.36.0
 	k8s.io/klog/v2 v2.140.0
 )
 
