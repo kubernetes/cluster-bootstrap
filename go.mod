@@ -9,8 +9,8 @@ godebug default=go1.27
 require (
 	github.com/go-jose/go-jose/v4 v4.1.5
 	github.com/stretchr/testify v1.12.1
-	k8s.io/api v0.0.0
-	k8s.io/apimachinery v0.0.0
+	k8s.io/api v0.0.0-20260914181325-09aeed3c4bf2
+	k8s.io/apimachinery v0.0.0-20260912220903-93e88e8ed40d
 	k8s.io/klog/v2 v2.140.0
 )
 
@@ -30,8 +30,4 @@ require (
 	sigs.k8s.io/structured-merge-diff/v7 v7.0.0 // indirect
 )
 
-replace (
-	k8s.io/api => ../api
-	k8s.io/apimachinery => ../apimachinery
-	k8s.io/streaming => ../streaming
-)
+replace k8s.io/streaming => k8s.io/streaming v0.0.0-20260914154742-f99df5dfe25e
