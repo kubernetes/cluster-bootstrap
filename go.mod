@@ -7,10 +7,10 @@ go 1.27.0
 godebug default=go1.27
 
 require (
-	github.com/go-jose/go-jose/v4 v4.1.5
+	github.com/go-jose/go-jose/v4 v4.1.7
 	github.com/stretchr/testify v1.12.1
-	k8s.io/api v0.0.0-20261102164818-232f8158c4af
-	k8s.io/apimachinery v0.0.0-20261102164403-9b85b23ad678
+	k8s.io/api v0.0.0-20261105044833-c96aa7872647
+	k8s.io/apimachinery v0.0.0-20261105084402-d9763c1acf1a
 	k8s.io/klog/v2 v2.140.0
 )
 
